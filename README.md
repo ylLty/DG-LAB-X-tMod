@@ -22,7 +22,7 @@
 
 - 务必**阅读并遵守DG-LAB安全须知**，安全须知内容如图：
 
-  ![安全须知](https://github.com/ylLty/DG-LAB-X-tMod/blob/main/DGLAB%E6%89%8B%E5%86%8C%E6%89%AB%E6%8F%8F%E4%BB%B6%EF%BC%88%E4%BE%B5%E5%88%A0%EF%BC%89/1%E5%AE%89%E5%85%A8%E9%A1%BB%E7%9F%A5.png?raw=true)
+  ![安全须知](https://raw.githubusercontent.com/ylLty/DG-LAB-X-tMod/refs/heads/main/DGLAB%E6%89%8B%E5%86%8C%E6%89%AB%E6%8F%8F%E4%BB%B6%EF%BC%88%E4%BE%B5%E5%88%A0%EF%BC%89/1%E5%AE%89%E5%85%A8%E9%A1%BB%E7%9F%A5.webp)
 
 ## 使用方式
 
@@ -102,7 +102,7 @@
 
 #### 手机端卡在"正在连接"
 
-这种情况可以**尝试重启游戏。**
+这种情况可以**尝试先关闭App，然后重新打开App扫码**
 
 ### 3、关闭服务时卡死
 
@@ -182,3 +182,4 @@ protected override void OnMessage(MessageEventArgs e)//处理来自 App 的消�
 
 
 ![Donate](https://github.com/ylLty/DG-LAB-X-tMod/blob/main/%E8%B5%9E%E5%8A%A9Donate.jpg?raw=true)
+
