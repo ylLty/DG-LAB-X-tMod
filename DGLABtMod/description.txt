@@ -3,5 +3,17 @@ Copyright (C) 2025 yl_lty
 将泰拉瑞亚与DG-LAB连接起来。当游戏人物受伤害时，现实中的你也会被电！
 
 Github仓库地址 : https://github.com/ylLty/DG-LAB-X-tMod
+BiliBili介绍视频 : https://www.bilibili.com/video/BV1tFtwzuEU4
 
 详细信息请看README.md
+
+======English======
+DG-LAB X tMod
+Copyright (C) 2025 yl_lty
+
+Connect Terraria to DG-LAB. When the game characters are hurt, you will also be electrocuted in reality!
+
+Github Repository Address : https://github.com/ylLty/DG-LAB-X-tMod
+BiliBili Introductory Video : https://www.bilibili.com/video/BV1tFtwzuEU4
+
+See this Mod README.md for details
