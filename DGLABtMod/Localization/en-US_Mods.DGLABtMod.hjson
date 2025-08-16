@@ -1,275 +1,320 @@
 Configs: {
 	MainConfig: {
-		DisplayName: 客户端配置
+		DisplayName: Client Config
 
 		Headers: {
-			重要安全警示: 重要安全警示
-			通道设置（务必同时在APP中设置强度上限！！）: 通道设置（务必同时在APP中设置强度上限！！）
-			强度设置: 强度设置
-			服务设置: 服务设置
-			UI设置: UI设置
-			调试选项: 调试选项
+			重要安全警示: Important Safety Warnings
+			通道设置（务必同时在APP中设置强度上限！！）: Channel Settings(Must set max strength in the app!)
+			强度设置: Strength Settings
+			服务设置: Server Settings
+			UI设置: UI Settings
+			调试选项: Debugging Options
 		}
 
 		WARN: {
-			Label: 启用此项即代表您确认您的年龄已满18周岁，且没有在此页面进行任何虚假陈述
+			Label: You are 18+ years old and PROVIDED TRUTHFUL INFORMATION IN THIS INTERFACE.
 			Tooltip: ""
 		}
 
 		WARN1: {
-			Label: 启用此项即代表您确认您已阅读并遵守 声明、DG-LAB安全须知(鼠标停靠查看摘要)
+			Label: You have read and agreed to the Disclaimer & DG-LAB Safety Guidelines (hover to preview).
 			Tooltip:
 				'''
-				DG-LAB郊狼安全须知摘要：
-				a) 已阅读并理解设备制造商的安全指南。
-				b) 植入心脏起搏器者、孕妇、心脏病患者、癫痫患者、知觉异常、无法及时操作产品人群、
-				    未成年人等不适宜人群严禁使用。
-				c) 在安全的部位使用产品，禁止在头部、胸部、心脏附近等危险部位使用。
-				d) 首次使用时从最低强度开始，在适合自身的强度范围使用。
-				你也可以在DG-LAB应用设置中找到此安全须知的完整版。
+				DG-LAB Safety Notice Summary:
+
+				a) You have read and understood the manufacturer's safety guidelines.
+				b) Strictly prohibited for:Persons with pacemakers, heart conditions, 
+				epilepsy, or sensory disordersPregnant individuals, minors, or anyone
+				unable to operate the device promptly
+				c) Use only on safe body areas (e.g., limbs). Never near the head, chest, or heart.
+				d) Always start at the lowest strength and adjust within your personal tolerance range.
+
+				The full safety manual is available in the DG-LAB app settings.
 
 				'''
 		}
 
 		WARN2: {
-			Label: 启用此项即代表您确认您无心脏病、癫痫等健康禁忌，且使用前已咨询医生
+			Label: You have no heart/neurological conditions and consulted a doctor if needed.
 			Tooltip: ""
 		}
 
 		WARN3: {
-			Label: 启用此项即代表您确认您仅使用DG-LAB 3.0原厂未改装设备
+			Label: You are using only unmodified DG-LAB 3.0 official devices.
 			Tooltip: ""
 		}
 
 		WARN4: {
-			Label: 启用此项即代表您确认您当前设置的强度在您的承受范围内，且自愿承担使用风险
+			Label: Your strength settings are within safe limits,and you accept all risks.
 			Tooltip: ""
 		}
 
 		A: {
-			Label: 启用通道A
+			Label: Enable Channel A
 			Tooltip:
 				'''
-				推荐值:启用
-				决定是否启用此通道
+				Recommended Value:Enable
+				Decide whether to enable this channel
 				'''
 		}
 
 		MaxA: {
-			Label: 通道A强度上限
+			Label: Channel A Strength Upper Limit
 			Tooltip:
 				'''
-				推荐值:100
-				给此通道设置强度限制,官方最大值为200
-				若实时强度大于此数值,则实际强度等于此值
-				例如,当最大值为100但强度已达到120时,则输出强度等于100
+				Recommended Value:100
+				Set a strength limit for this channel, the official maximum is 200
+				If the real-time strength is greater than this value,
+				the actual strength is equal to this value
+				For example, when the maximum value is 100 but the strength has reached 120,
+				the output strength is equal to 100
 				'''
 		}
 
 		LowA: {
-			Label: 通道A强度下限
+			Label: Channel A Strength Lower limit
 			Tooltip:
 				'''
-				推荐值:0
-				给此通道设置强度最低限制,官方最大值为200
-				若实时强度小于此数值,则实际强度等于此值
-				例如,当最小值为20但强度已达到10时,则输出强度等于20
+				Recommended Value:0
+				Set a minimum strength limit for this channel, with an official maximum of 200
+				If the real-time strength is less than this value,
+				the actual strength is equal to this value
+				For example, if the minimum value is 20 but the strength has reached 10,
+				the output strength is equal to 20
 				'''
 		}
 
 		B: {
-			Label: 启用通道B
+			Label: Enable channel B
 			Tooltip:
 				'''
-				推荐值:启用
-				决定是否启用此通道
+				Recommended Value:Enable
+				Decide whether to enable this channel
 				'''
 		}
 
 		MaxB: {
-			Label: 通道B强度上限
+			Label: Channel B Strength Upper Limit
 			Tooltip:
 				'''
-				推荐值:100
-				给此通道设置强度限制,官方最大值为200
-				若实时强度大于此数值,则实际强度等于此值
-				例如,当最大值为100但强度已达到120时,则输出强度等于100
+				Recommended Value:100
+				Set a strength limit for this channel, the official maximum is 200
+				If the real-time strength is greater than this value,
+				the actual strength is equal to this value
+				For example, when the maximum value is 100 but the strength has reached 120,
+				the output strength is equal to 100
 				'''
 		}
 
 		LowB: {
-			Label: 通道B强度下限
+			Label: Channel B Strength Lower limit
 			Tooltip:
 				'''
-				推荐值:0
-				给此通道设置强度最低限制,官方最大值为200
-				若实时强度小于此数值,则实际强度等于此值
-				例如,当最小值为20但强度已达到10时,则输出强度等于20
+				Recommended Value:0
+				Set a minimum strength limit for this channel, with an official maximum of 200
+				If the real-time strength is less than this value,
+				the actual strength is equal to this value
+				For example, if the minimum value is 20 but the strength has reached 10,
+				the output strength is equal to 20
 				'''
 		}
 
 		CommStrength: {
-			Label: 每十点普通伤害强度
+			Label: Increased Strength For Every 10 Normal Damage
 			Tooltip:
 				'''
-				推荐值:3
-				用于设置每受到十点伤害后增加多少强度,建议值为3
-				例如,当受到42点普通伤害时,若此项设置为3,则会增加12.6点强度
+				Recommended Value:3
+				Used to set how much strength increases after every ten damage taken
+				For example, when taking 42 normal damage,
+				if set to 3, it will increase strength by 12.6
 
-				普通伤害指玩家受击后会发出叫声的伤害
-				比如僵尸伤害,摔落伤害,岩浆直接伤害
-				增益伤害不在普通伤害范围内
+				Normal damage is damage that causes the player to cry out when hit
+				Such as zombie damage, fall damage, and magma direct damage
+				Debuff damage is not within normal damage
 				'''
 		}
 
 		BuffStrength: {
-			Label: 每秒Buff伤害强度
+			Label: Buffs Damage Strength Per Second
 			Tooltip:
 				'''
-				推荐值:3
-				用于设置获得此类Buff状态时,每秒增加多少强度
+				Recommended Value:3
+				Used to set how much strength increases per second when such a buff status is obtained
 
-				Buff伤害指 燃烧,中毒 这类会受伤,但又不强的Buff伤害
-				详见本模组README.md
+				Buff damage refers to Burning,
+				Poisoned and other types of buff damage that will hurt but are not strong
+				See this Mod README.md for details
 				'''
 		}
 
 		BuffPlusStrength: {
-			Label: 每秒强Buff伤害强度
+			Label: Strong Buffs Damage Strength Per Second
 			Tooltip:
 				'''
-				推荐值:6
-				用于设置获得此类Buff状态时,每秒增加多少强度
+				Recommended Value:6
+				Used to set how much strength increases per second when such a buff status is obtained
 
-				酸性毒液 和 带电(感同身受)等Buff属于 强伤害Buff
-				详见本模组README.md
+					
+				Acid Venom and Electrified(Empathy!)and other buffs belong Strong Buffs
+				See this Mod README.md for details
 				'''
 		}
 
 		BuffTroubleStrength: {
-			Label: 干扰型Buff增加强度
+			Label: Interference Buff Increases Strength
 			Tooltip:
 				'''
-				推荐值:10
-				用于设置获得此类Buff状态时,在当前强度基础上增加多少强度,不会重复叠加
+				Recommended Value:10
+				Used to set how much strength is added to the current strength when obtaining such a buff state,
+				and it will not be stacked repeatedly
 
-				狂卷之舌 和 虚弱 等Buff属于 干扰型Buff
-				详见本模组README.md
+					
+				The Tongue and Weak and other buffs belong Interference Buff
+				See this Mod README.md for details
 				'''
 		}
 
 		Death: {
-			Label: 死亡时强度
+			Label: Strength At Death
 			Tooltip:
 				'''
-				属于死亡界面时的固定强度,推荐值为90,
-				重生后会立即恢复为0
-				详见本模组README.md
+				Recommended Value:90
+				Fixed strength when it belongs to the death interface
+				Reverts to 0 immediately after respawning
+				See this Mod README.md for details
 				'''
 		}
 
 		DeathTime: {
-			Label: 死亡时惩罚时间（1/60秒）
-			Tooltip: 设置死亡后会持续输出多久.设为0则表示在死亡界面会一直输出
+			Label: Penalty Time Upon Death(1/60 second)
+			Tooltip:
+				'''
+				Set how long the output will last after death.
+				If set to 0, it means that it will always output on the death interface
+				'''
 		}
 
 		WaitTime: {
-			Label: 强度下降等待时间
+			Label: Strength Drop Wait Time
 			Tooltip:
 				'''
-				用于设置受到伤害后等待多少秒后开始下降强度
-				建议值为10
+				Used to set how many seconds to wait after
+				taking damage before starting to drop in strength.
+				Recommended Value:10
 				'''
 		}
 
 		Speed: {
-			Label: 强度下降速度
+			Label: The Rate Of Strength Decline
 			Tooltip:
 				'''
-				用于设置每秒下降多少强度
-				建议值为3
+				Used to set how much strength to drop per second
+				Recommended Value:3
 				'''
 		}
 
 		SpeedBuff: {
-			Label: 普通生命回复Buff强度下降速度
+			Label: Normal HP Regeneration Buff Strength Decay Rate
 			Tooltip:
 				'''
-				用于设置普通生命回复Buff每秒多下降多少强度
-				建议值为2
+				Used to set how much the normal HP regeneration
+				buff decreases per second
+				Recommended Value:2
 				'''
 		}
 
 		SpeedBuffPlus: {
-			Label: 强生命回复Buff强度下降速度
+			Label: Strong HP Regeneration Buff Strength Decay Rate
 			Tooltip:
 				'''
-				用于设置强生命回复Buff每秒多下降多少强度
-				建议值为6
+				Used to set how much the strong HP regeneration
+				buff decreases per second
+				Recommended Value:6
 				'''
 		}
 
 		Port: {
-			Label: 服务启动端口
-			Tooltip: 推荐值9999,如果无法生成二维码,可尝试修改此数值(需在1024-65535之间)
+			Label: Service Startup port
+			Tooltip:
+				'''
+				Recommended Value:9999
+				If you are unable to generate QR code,
+				you can try modifying this value
+				(It needs to be between 1024-65535)
+				'''
 		}
 
 		IP: {
-			Label: 二维码连接地址
+			Label: QR Code Connection Address
 			Tooltip:
 				'''
-				建议留空,留空则会自动获取此电脑在局域网中的IP,
-				如果无法连接,可尝试修改
-				（修改需确保IP为此电脑在局域网中的IP,一般是192.168.x.xxx,可在你家里的路由器管理界面找到）
-				详见本模组README.md
+				It is recommended to leave it blank,
+				If left blank, the local network IP of
+				this computer will be automatically detected.
+				If connection fails, try manually entering an IP address
+				(Ensure the IP matches this computer's LAN address,
+				typically 192.168.x.xxx - find it in your home router admin panel)
+				See this Mod README.md for details
 				'''
 		}
 
 		IsDebug: {
-			Label: 启用调试
+			Label: Enable Debugging
 			Tooltip:
 				'''
-				勾选后,每当受伤或死亡事件发生时将会产生提示
-				特别不建议开启
-				详见本模组README.md
+				When checked, a prompt will be generated whenever an injury or death occurs
+				HIGHLY NOT RECOMMENDED TO ENABLE
+				See this Mod README.md for details
 				'''
 		}
 
 		DebugBuff: {
-			Label: 调试选项:显示Buff效果
+			Label: Debugging Options: Displays the Buff Effect
 			Tooltip:
 				'''
-				勾选后,Buff伤害事件发生时将会产生提示,前提是启用调试
-				特别不建议开启
-				详见本模组README.md
+				When checked, a prompt will be generated when a buff damage event occurs,
+				provided that "Enable Debugging" is enabled
+				HIGHLY NOT RECOMMENDED TO ENABLE
+				See this Mod README.md for details
 				'''
 		}
 
 		UIx: {
-			Label: UI水平位置
+			Label: UI Horizontal Position
 			Tooltip:
 				'''
-				推荐值500.设置强度显示面板水平方向上的位置,数值在0-1000之间
-				500为居中,0为最左边
+				Recommended Value:500
+				Set the position of the strength display panel horizontally,
+				with values ranging from 0 to 1000
+				500 is center, 0 is the leftmost one
 				'''
 		}
 
 		UIy: {
-			Label: UI竖直位置
+			Label: UI Vertical Position
 			Tooltip:
 				'''
-				推荐值10.设置强度显示面板竖直方向上的位置,数值在0-1000之间
-				500为居中,0为最上边
+				Recommended Value:10
+				Set the position of the strength display panel in the vertical direction,
+				with values ranging from 0 to 1000
+				500 is the center, 0 is the top
 				'''
 		}
 
 		DollMode: {
-			Label: 巫毒娃娃模式
+			Label: Voodoo Doll Mode
 			Tooltip:
 				'''
-				勾选后,在多人模式中,当其他玩家受伤、死亡时会电击你,仅供娱乐,不建议开启
-				（旧版本遗留的bug）
+				When checked,in multiplayer mode, when other players are injured or die,
+				it will shock you,for entertainment only,
+				it is not recommended to turn it on
+				(Bugs left over from the old version)
 				'''
+		}
+
+		HideUI: {
+			Label: Hide UI
+			Tooltip: ""
 		}
 	}
 }
