@@ -4,4 +4,3 @@
 *.webp linguist-generated
 *.txt linguist-generated
 *.hjson linguist-generated
-**/lib/** linguist-vendored
