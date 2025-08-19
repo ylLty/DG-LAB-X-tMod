@@ -276,5 +276,15 @@ Configs: {
 			Label: 隐藏UI
 			Tooltip: ""
 		}
+
+		QrPath: {
+			Label: 二维码保存地址
+			Tooltip:
+				'''
+				建议留空,留空则会保存在图片文件夹,
+				如无法生成二维码,可尝试修改
+				（修改最好是绝对路径,如"D:\QrPath",这样将会保存为"D:\QrPath\DGLAB_tMod_QRCode.png"）
+				'''
+		}
 	}
 }

@@ -17,10 +17,10 @@ Configs: {
 		}
 
 		WARN1: {
-			Label: You have read and agreed to the Disclaimer & DG-LAB Safety Guidelines (hover to preview).
+			Label: You have read and agreed to the Disclaimer & DG-LAB Safety Precautions (hover to preview).
 			Tooltip:
 				'''
-				DG-LAB Safety Notice Summary:
+				DG-LAB Safety Precautions Summary:
 
 				a) You have read and understood the manufacturer's safety guidelines.
 				b) Strictly prohibited for:Persons with pacemakers, heart conditions, 
@@ -315,6 +315,18 @@ Configs: {
 		HideUI: {
 			Label: Hide UI
 			Tooltip: ""
+		}
+
+		QrPath: {
+			Label: QR Code Saves Path
+			Tooltip:
+				'''
+				It is recommended to leave it blank,
+				If left blank, it will be saved in the picture folder.
+				If you cannot generate a QR code, you can try to modify it
+				(The best way to modify is the absolute path
+				Such as"D:\QrPath",this will save at"D:\QrPath\DGLAB_tMod_QRCode.png")
+				'''
 		}
 	}
 }
