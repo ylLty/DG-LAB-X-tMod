@@ -1,12 +1,7 @@
-*.md linguist-documentation
 *.json linguist-generated
 *.png linguist-generated
 *.jpg linguist-generated
+*.webp linguist-generated
+*.txt linguist-generated
+*.hjson linguist-generated
 **/lib/** linguist-vendored
-**/Lib/** linguist-vendored
-**/Bin/** linguist-vendored
-**/bin/** linguist-vendored
-**/Obj/** linguist-vendored
-**/obj/** linguist-vendored
-**/packages/** linguist-vendored
-**/*.dll linguist-vendored
