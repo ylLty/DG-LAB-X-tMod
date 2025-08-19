@@ -1,4 +1,4 @@
-![icon](https://github.com/ylLty/DG-LAB-X-tMod/blob/main/icon.png?raw=true)
+![icon](https://github.com/ylLty/DG-LAB-X-tMod/blob/main/DGLABtMod/icon_workshop.png?raw=true)
 
 # DG-LAB X tMod
 
@@ -182,4 +182,5 @@ protected override void OnMessage(MessageEventArgs e)//处理来自 App 的消�
 
 
 ![Donate](https://github.com/ylLty/DG-LAB-X-tMod/blob/main/%E8%B5%9E%E5%8A%A9Donate.jpg?raw=true)
+
 
