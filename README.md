@@ -10,7 +10,7 @@
 
 ## 声明
 
-- 使用该模组前，请**务必阅读此文档**。
+- 使用该模组前，**请务必阅读此文档**。
 
 - **未成年人严禁使用此软件**，请未成年玩家自觉禁用此模组。
 
@@ -182,5 +182,6 @@ protected override void OnMessage(MessageEventArgs e)//处理来自 App 的消�
 
 
 ![Donate](https://github.com/ylLty/DG-LAB-X-tMod/blob/main/%E8%B5%9E%E5%8A%A9Donate.jpg?raw=true)
+
 
 
