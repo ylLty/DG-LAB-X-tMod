@@ -328,5 +328,14 @@ Configs: {
 				Such as"D:\QrPath",this will save at"D:\QrPath\DGLAB_tMod_QRCode.png")
 				'''
 		}
+
+		AutoPort: {
+			Label: Automatically Select Ports
+			Tooltip:
+				'''
+				When enabled, available ports are automatically selected
+				(The set port will be discarded)
+				'''
+		}
 	}
 }
