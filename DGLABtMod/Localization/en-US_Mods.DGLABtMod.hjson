@@ -337,5 +337,15 @@ Configs: {
 				(The set port will be discarded)
 				'''
 		}
+
+		NoLimit: {
+			Label: Can break the upper limit of strength
+			Tooltip:
+				'''
+				It is recommended to disable . If enabled, the strength at death can exceed the maximum strength
+				But it can't break through the soft upper limit
+				At this time, you need to be careful to set the strength of death within the appropriate range!!
+				'''
+		}
 	}
 }
