@@ -162,7 +162,7 @@ protected override void OnMessage(MessageEventArgs e)//处理来自 App 的消�
 
 ### 其他
 
-- 本模组部分代码由DeepSeek生成，同时部分代码也由Copilot生成。
+- 本模组部分代码由ChatGPT、Copilot、DeepSeek生成  ~~AI太好用了你们知道吗？~~
 - 本模组WebSocket服务部分参照了[此文本](https://github.com/DG-LAB-OPENSOURCE/DG-LAB-OPENSOURCE/blob/main/socket/BackEnd(Node)/websocketNode.js)。
 - 本模组内置安全确认功能以确保合规使用，开发者鼓励用户根据MIT协议自由修改和分发代码，**但提醒移除安全机制可能违反当地法律甚至导致人身风险。**
 - 用户本模组配置页面确认警告后方可使用
@@ -182,6 +182,7 @@ protected override void OnMessage(MessageEventArgs e)//处理来自 App 的消�
 
 
 ![Donate](https://github.com/ylLty/DG-LAB-X-tMod/blob/main/%E8%B5%9E%E5%8A%A9Donate.jpg?raw=true)
+
 
 
 
