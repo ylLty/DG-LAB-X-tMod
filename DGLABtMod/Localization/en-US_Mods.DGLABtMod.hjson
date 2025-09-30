@@ -347,5 +347,29 @@ Configs: {
 				At this time, you need to be careful to set the strength of death within the appropriate range!!
 				'''
 		}
+
+		IgnoreSoftLimit: {
+			Label: Ignore the app's soft limit
+			Tooltip: Enabling this will ignore the app soft limit
+		}
+
+		IsPersistentOutput: {
+			Label: Persistent Output
+			Tooltip:
+				'''
+				If this is turned on, it will continue to output normal and other damage
+				It will stop when the following occurs:
+				    - Life accumulation is restored to its set value
+				    - Nurse Heal
+				    - Internal strength is zeroed
+				    - Respawn
+				    - Life is full
+				'''
+		}
+
+		NeedCumulativeLifeAdd: {
+			Label: Persistent output requires health recovery
+			Tooltip: ""
+		}
 	}
 }

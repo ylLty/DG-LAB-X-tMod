@@ -301,5 +301,29 @@ Configs: {
 				此时需注意将死亡时强度设置在合适范围内!!
 				'''
 		}
+
+		IgnoreSoftLimit: {
+			Label: 无视app软上限
+			Tooltip: 启用此项，将会无视app软上限
+		}
+
+		IsPersistentOutput: {
+			Label: 持续输出
+			Tooltip:
+				'''
+				若开启此项，当收到普通伤害和其他伤害时，将会持续输出
+				当下列情况发生时才会停止：
+				    - 生命累计恢复到设定值
+				    - 护士治疗
+				    - 内部强度归零
+				    - 重生
+				    - 生命值回满
+				'''
+		}
+
+		NeedCumulativeLifeAdd: {
+			Label: 持续输出需恢复生命值
+			Tooltip: ""
+		}
 	}
 }
